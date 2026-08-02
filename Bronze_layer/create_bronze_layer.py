@@ -47,7 +47,7 @@ df = (
     .withColumn("file_name", input_file_name())
     .withColumn("batch_id", lit("20260802"))
 )
-
+print("sucess")
 # Write Bronze
 (
     df.write
