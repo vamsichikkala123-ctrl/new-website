@@ -39,7 +39,7 @@ df = df.dropDuplicates()
 
 # Remove rows where all columns are null
 df = df.na.drop(how="all")
-
+print("sucess")
 # Add metadata
 df = (
     df
